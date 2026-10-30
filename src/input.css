@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-text: "Space Mono", sans-serif;
+  --font-second: "Work Sans", sans-serif;
+}
+
+@keyframes bigger {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes light {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes eye {
+  0% {
+    transform: scaleY(0.1);
+    opacity: 0.8;
+  }
+
+  50% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.container {
+  @apply w-4/5 my-0 mx-auto;
+}
+/* ANIMATION AND HOVER */
+.hs {
+  @apply transform scale-100 transition ease-in-out duration-500;
+}
+
+.hs {
+  @apply hover:scale-110;
+}
+
+.span-animate {
+  @apply inline-block animate-[bigger_0.7s_ease-in-out_infinite_alternate];
+}
+
+/* HEADER */
+
+.nav-list {
+  @apply font-semibold text-[20px] inline-block hover:scale-110 hover:text-[#a259ff];
+}
+
+.head-span {
+  @apply font-bold text-[32px] capitalize font-text;
+}
+
+.head-p {
+  @apply font-normal text-[31px] capitalize;
+}
+
+/* GENERAL */
+
+.title {
+  @apply font-semibold text-[45px] text-[#fff] leading-[120%] capitalize mb-2.5;
+}
+
+.text {
+  @apply font-normal text-[30px] text-[#fff] leading-[160%] capitalize;
+}
+
+/* BUTTONS */
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5,
+.btn6,
+.btn7 {
+  @apply transform scale-100 transition duration-[0.3s] ease-in;
+}
+
+.btn1 {
+  @apply w-[152px] h-[60px] flex justify-center items-center gap-3 bg-[#a259ff] rounded-[20px] font-semibold text-[20px] leading-[140%] hover:scale-105 cursor-pointer active:scale-95 hover:bg-[#770fff];
+}
+
+.btn2 {
+  @apply w-[261px] h-[70px] flex justify-center items-center gap-3 bg-[#a259ff] rounded-[20px] font-semibold text-[20px] leading-[140%] hover:scale-105 cursor-pointer active:scale-95 hover:bg-[#770fff];
+}
+
+.btn3 {
+  @apply w-[288px] h-[70px] flex justify-center items-center gap-3 bg-transparent border-2 border-[#a259ff] border-2 rounded-[20px] font-semibold text-[20px] leading-[140%] hover:scale-105 cursor-pointer active:scale-95;
+}
+
+.btn4 {
+  @apply w-[218px] h-[70px] flex justify-center items-center gap-3 bg-transparent border-2 border-[#a259ff] border-2 rounded-[20px] font-semibold text-[20px] leading-[140%] hover:scale-105 cursor-pointer active:scale-95;
+}
+
+.btn5 {
+  @apply w-[231px] h-[70px] flex justify-center items-center gap-3 bg-[#fff] rounded-[20px] font-semibold text-[20px] text-[#3b3b3b] leading-[140%] hover:scale-105 cursor-pointer active:scale-95;
+}
+
+.btn6,
+.btn7 {
+  @apply w-[281px] h-[80px] flex justify-center items-center gap-3 bg-[#a259ff] rounded-[25px] font-semibold text-[20px] leading-[140%] hover:scale-105 cursor-pointer active:scale-95 hover:bg-[#770fff];
+}
+
+/* SECTION 1 */
+
+.sec1-card {
+  @apply w-[420px] h-[630px] flex flex-wrap justify-between;
+}
+
+.img1 {
+  @apply w-[420px] h-[420px] mb-6;
+}
+
+.img2 {
+  @apply size-[120px];
+}
+
+.sec1-span {
+  @apply size-[120px] flex justify-center items-center bg-[#a259ff] text-[#fff] font-bold text-[22px] leading-[160%] rounded-[20px];
+}
+
+.sec1-h3 {
+  @apply w-full font-semibold text-2xl leading-[140%];
+}
+
+.sec1-p {
+  @apply w-full font-normal text-[20px] leading-[140%] flex items-center gap-3;
+}
+
+/* SECTION 2 */
+
+.sec2-card {
+  @apply w-[340px] h-[337px] p-5 rounded-[20px] bg-[#3b3b3b] flex flex-col justify-center items-center relative;
+}
+
+.img3 {
+  @apply size-[170px];
+}
+
+.sec2-h4 {
+  @apply font-semibold text-[32px] leading-[140%] text-center mt-6 mb-2.5;
+}
+
+.sec2-h5 {
+  @apply absolute top-[18px] left-5 bg-[#2b2b2b] w-[42px] h-[42px] rounded-[20px] flex justify-center items-center text-[#858584] font-text animate-[spin_2s_ease-in-out_infinite];
+}
+
+.sec2-div {
+  @apply w-full flex gap-5 font-normal text-[25px] leading-[140%] text-[#858584];
+}
+
+.sec2-span {
+  @apply font-normal text-[25px] leading-[140%] text-[#fff] font-text;
+}
+
+/* SECTION 3 */
+
+.sec3-card {
+  @apply w-[345px] h-[454px] rounded-[25px] bg-[#3b3b3b] text-[#a259ff] hover:text-[#fff];
+}
+
+.sec3-img {
+  @apply size-[345px];
+}
+
+.sec3-h5 {
+  @apply w-full h-[109px] font-semibold text-[28px] leading-[140%] p-5 flex items-center;
+}
+
+/* SECTION 4 */
+
+.sec4-card {
+  @apply w-[460px] h-[654px] bg-[#3b3b3b] rounded-[25px] flex flex-col justify-start gap-[20px];
+}
+
+.sec4-text {
+  @apply font-normal text-[22px] leading-[140%] flex items-center gap-3 mt-2.5 mb-[30px] font-text;
+}
+
+.sec4-p {
+  @apply font-normal text-[16px] leading-[110%] text-[#858584];
+}
+
+.sec4-span {
+  @apply font-normal text-[22px] leading-[140%];
+}
+
+/* SECTION 5 */
+.sec5-span {
+  @apply font-bold text-[42px] leading-[120%] inline-block mb-1.5;
+}
+
+.list1 {
+  @apply font-bold text-[30px] leading-[160%] mb-[30px] font-text;
+}
+
+.list2 {
+  @apply font-normal text-[22px] leading-[140%] mb-[20px] text-[#ccc];
+}

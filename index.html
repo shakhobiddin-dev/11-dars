@@ -1,0 +1,499 @@
+<!doctype html>
+<html class="scroll-smooth" lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>11-dars</title>
+        <link rel="stylesheet" href="./src/output.css" />
+    </head>
+    <body class="bg-[#2b2b2b] font-second">
+        <!-- HEADER -->
+        <header id="header" class="w-full h-screen text-[#fff] pt-24">
+            <nav class="h-[100px] w-full px-[50px] bg-[#2b2b2b] flex justify-between items-center fixed top-0 z-50">
+                <img src="./images/nav_logo.png" alt="" />
+                <div class="flex justify-between gap-[100px]">
+                    <ul class="flex justify-between items-center gap-[100px]">
+                        <li><a class="nav-list hs" href="#header">Marketplace</a></li>
+                        <li><a class="nav-list hs" href="#sec2">Rankings</a></li>
+                        <li>
+                            <a class="nav-list hs" href="#sec6">Connect a wallet</a>
+                        </li>
+                    </ul>
+                    <button class="btn1"><img class="size-[20px]" src="./images/nav_btn_logo.png" alt="" />Sign Up</button>
+                </div>
+            </nav>
+            <div class="container h-full flex justify-between items-center">
+                <div class="w-[636px] flex flex-col gap-7">
+                    <h1 class="font-semibold text-[85px] capitalize leading-[110%]">Discover digital art & Collect NFTs</h1>
+                    <p class="font-normal text-[28px] capitalize">
+                        NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.
+                    </p>
+                    <button class="btn2"><img class="size-[23px]" src="./images/header_btn_logo.png" alt="" />Get Started</button>
+                    <div class="flex gap-[100px]">
+                        <div class="span-animate">
+                            <span class="head-span">240k+</span>
+                            <p class="head-p">Total Sale</p>
+                        </div>
+                        <div class="span-animate">
+                            <span class="head-span">100k+</span>
+                            <p class="head-p">Auctions</p>
+                        </div>
+                        <div class="span-animate">
+                            <span class="head-span">240k+</span>
+                            <p class="head-p">Artists</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img class="w-[636px] h-[500px]" src="./images/header_img1.png" alt="" />
+                    <div class="w-[636px] h-[136px] px-8 bg-[#3b3b3b] rounded-b-[20px] flex flex-col justify-center gap-2.5">
+                        <h6 class="font-semibold text-[25px] capitalize leading-[140%]">Space Walking</h6>
+                        <p class="font-normal text-[20px] leading-[140%] flex items-center gap-3">
+                            <img src="./images/header_img2.png" alt="" />Animakid
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="text-[#fff] flex flex-col items-center">
+            <!-- SECTION 1 -->
+            <section class="container h-screen flex flex-col justify-center gap-14 text-[#fff] pt-24">
+                <div>
+                    <h2 class="title">Trending Collection</h2>
+                    <p class="text">Checkout our weekly updated trending collection.</p>
+                </div>
+                <div class="flex justify-between">
+                    <div class="sec1-card">
+                        <img class="img1 hs" src="./images/sec1_card1_img1.png" alt="" />
+                        <img class="img2 hs" src="./images/sec1_card1_img2.png" alt="" />
+                        <img class="img2 hs" src="./images/sec1_card1_img3.png" alt="" />
+                        <span class="sec1-span">1025+</span>
+                        <h3 class="sec1-h3">DSGN Animals</h3>
+                        <p class="sec1-p"><img src="./images/sec1_card1_img4.png" alt="" />MrFox</p>
+                    </div>
+                    <div class="sec1-card">
+                        <img class="img1 hs" src="./images/sec1_card2_img1.png" alt="" />
+                        <img class="img2 hs" src="./images/sec1_card2_img2.png" alt="" />
+                        <img class="img2 hs" src="./images/sec1_card2_img3.png" alt="" />
+                        <span class="sec1-span">1025+</span>
+
+                        <h3 class="sec1-h3">Magic Mushrooms</h3>
+                        <p class="sec1-p"><img src="./images/sec1_card2_img4.png" alt="" />Shroomie</p>
+                    </div>
+                    <div class="sec1-card">
+                        <img class="img1 hs" src="./images/sec1_card3_img1.png" alt="" />
+                        <img class="img2 hs" src="./images/sec1_card3_img2.png" alt="" />
+                        <img class="img2 hs" src="./images/sec1_card3_img3.png" alt="" />
+                        <span class="sec1-span">1025+</span>
+                        <h3 class="sec1-h3">Disco Machines</h3>
+                        <p class="sec1-p"><img src="./images/sec1_card3_img4.png" alt="" />BeKind2Robots</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 2 -->
+            <section id="sec2" class="container h-[140vh] text-[#fff] pt-24">
+                <div class="flex justify-between items-end mb-14">
+                    <div>
+                        <h2 class="title">Top creators</h2>
+                        <p class="text">Checkout Top Rated Creators on the NFT Marketplace</p>
+                    </div>
+                    <button class="btn3"><img class="size-[23px]" src="./images/sec2_btn_img.png" alt="" />View Rankings</button>
+                </div>
+                <div class="flex justify-between items-center text-center flex-wrap gap-[30px] capitalize">
+                    <div class="sec2-card hs">
+                        <img class="img3" src="./images/sec2_img1.png" alt="Keepitreal" />
+                        <div>
+                            <h4 class="sec2-h4">Keepitreal</h4>
+                            <div class="sec2-div">
+                                <p class="sec2-p">Total Sales:</p>
+                                <span class="sec2-span span-animate">34.53 ETH</span>
+                            </div>
+                        </div>
+                        <h5 class="sec2-h5">1</h5>
+                    </div>
+                    <div class="sec2-card hs">
+                        <img class="img3" src="./images/sec2_img2.png" alt="DigiLab" />
+                        <div>
+                            <h4 class="sec2-h4">DigiLab</h4>
+                            <div class="sec2-div">
+                                <p class="sec2-p">Total Sales:</p>
+                                <span class="sec2-span span-animate">34.53 ETH</span>
+                            </div>
+                        </div>
+                        <h5 class="sec2-h5">2</h5>
+                    </div>
+                    <div class="sec2-card hs">
+                        <img class="img3" src="./images/sec2_img3.png" alt="GravityOne" />
+                        <div>
+                            <h4 class="sec2-h4">GravityOne</h4>
+                            <div class="sec2-div">
+                                <p class="sec2-p">Total Sales:</p>
+                                <span class="sec2-span span-animate">34.53 ETH</span>
+                            </div>
+                        </div>
+                        <h5 class="sec2-h5 font-text">3</h5>
+                    </div>
+                    <div class="sec2-card hs">
+                        <img class="img3" src="./images/sec2_img4.png" alt="Juanie" />
+                        <div>
+                            <h4 class="sec2-h4">Juanie</h4>
+                            <div class="sec2-div">
+                                <p>Total Sales:</p>
+                                <span class="sec2-span span-animate">34.53 ETH</span>
+                            </div>
+                        </div>
+                        <h5 class="sec2-h5">4</h5>
+                    </div>
+                    <div class="sec2-card hs">
+                        <img class="img3" src="./images/sec2_img5.png" alt="BlueWhale" />
+                        <div>
+                            <h4 class="sec2-h4">BlueWhale</h4>
+                            <div class="sec2-div">
+                                <p class="sec2-p">Total Sales:</p>
+                                <span class="sec2-span span-animate">34.53 ETH</span>
+                            </div>
+                        </div>
+                        <h5 class="sec2-h5">5</h5>
+                    </div>
+                    <div class="sec2-card hs">
+                        <img class="img3" src="./images/sec2_img6.png" alt="Mr Fox" />
+                        <div>
+                            <h4 class="sec2-h4">Mr Fox</h4>
+                            <div class="sec2-div">
+                                <p class="sec2-p">Total Sales:</p>
+                                <span class="sec2-span span-animate">34.53 ETH</span>
+                            </div>
+                        </div>
+                        <h5 class="sec2-h5">6</h5>
+                    </div>
+                    <div class="sec2-card hs">
+                        <img class="img3" src="./images/sec2_img7.png" alt="Shroomie" />
+                        <div>
+                            <h4 class="sec2-h4">Shroomie</h4>
+                            <div class="sec2-div">
+                                <p class="sec2-p">Total Sales:</p>
+                                <span class="sec2-span span-animate">34.53 ETH</span>
+                            </div>
+                        </div>
+                        <h5 class="sec2-h5">7</h5>
+                    </div>
+                    <div class="sec2-card hs">
+                        <img class="img3" src="./images/sec2_img8.png" alt="robotica" />
+                        <div>
+                            <h4 class="sec2-h4">robotica</h4>
+                            <div class="sec2-div">
+                                <p class="sec2-p">Total Sales:</p>
+                                <span class="sec2-span span-animate">34.53 ETH</span>
+                            </div>
+                        </div>
+                        <h5 class="sec2-h5">8</h5>
+                    </div>
+                    <div class="sec2-card hs">
+                        <img class="img3" src="./images/sec2_img9.png" alt="RustyRobot" />
+                        <div>
+                            <h4 class="sec2-h4">RustyRobot</h4>
+                            <div class="sec2-div">
+                                <p class="sec2-p">Total Sales:</p>
+                                <span class="sec2-span span-animate">34.53 ETH</span>
+                            </div>
+                        </div>
+                        <h5 class="sec2-h5">9</h5>
+                    </div>
+                    <div class="sec2-card hs">
+                        <img class="img3" src="./images/sec2_img10.png" alt="animakid" />
+                        <div>
+                            <h4 class="sec2-h4">animakid</h4>
+                            <div class="sec2-div">
+                                <p class="sec2-p">Total Sales:</p>
+                                <span class="sec2-span span-animate">34.53 ETH</span>
+                            </div>
+                        </div>
+                        <h5 class="sec2-h5">10</h5>
+                    </div>
+                    <div class="sec2-card hs">
+                        <img class="img3" src="./images/sec2_img11.png" alt="Dotgu" />
+                        <div>
+                            <h4 class="sec2-h4">Dotgu</h4>
+                            <div class="sec2-div">
+                                <p class="sec2-p">Total Sales:</p>
+                                <span class="sec2-span span-animate">34.53 ETH</span>
+                            </div>
+                        </div>
+                        <h5 class="sec2-h5">11</h5>
+                    </div>
+                    <div class="sec2-card hs">
+                        <img class="img3" src="./images/sec2_img12.png" alt="Ghiblier" />
+                        <div>
+                            <h4 class="sec2-h4">Ghiblier</h4>
+                            <div class="sec2-div">
+                                <p class="sec2-p">Total Sales:</p>
+                                <span class="sec2-span span-animate">34.53 ETH</span>
+                            </div>
+                        </div>
+                        <h5 class="sec2-h5">12</h5>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 2 -->
+            <section class="container h-[120vh] pt-24">
+                <h2 class="title mb-10">Browse Categories</h2>
+                <div class="flex flex-wrap justify-between gap-[30px] mt-16">
+                    <div class="sec3-card hs">
+                        <img class="sec3-img" src="./images/sec3_img1.png" alt="" />
+                        <h5 class="sec3-h5">Art</h5>
+                    </div>
+                    <div class="sec3-card hs">
+                        <img class="sec3-img" src="./images/sec3_img2.png" alt="" />
+                        <h5 class="sec3-h5">Collectibles</h5>
+                    </div>
+                    <div class="sec3-card hs">
+                        <img class="sec3-img" src="./images/sec3_img3.png" alt="" />
+                        <h5 class="sec3-h5">Music</h5>
+                    </div>
+                    <div class="sec3-card hs">
+                        <img class="sec3-img" src="./images/sec3_img4.png" alt="" />
+                        <h5 class="sec3-h5">Photography</h5>
+                    </div>
+                    <div class="sec3-card hs">
+                        <img class="sec3-img" src="./images/sec3_img5.png" alt="" />
+                        <h5 class="sec3-h5">Video</h5>
+                    </div>
+                    <div class="sec3-card hs">
+                        <img class="sec3-img" src="./images/sec3_img6.png" alt="" />
+                        <h5 class="sec3-h5">Utility</h5>
+                    </div>
+                    <div class="sec3-card hs">
+                        <img class="sec3-img" src="./images/sec3_img7.png" alt="" />
+                        <h5 class="sec3-h5">Sport</h5>
+                    </div>
+                    <div class="sec3-card hs">
+                        <img class="sec3-img" src="./images/sec3_img8.png" alt="" />
+                        <h5 class="sec3-h5">Virtual Worlds</h5>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 3 -->
+            <section class="container h-[110vh] pt-20 flex flex-col justify-center gap-10">
+                <div class="flex justify-between items-end">
+                    <div>
+                        <h2 class="title">Discover More NFTs</h2>
+                        <p class="text">Explore new trending NFTs</p>
+                    </div>
+                    <button class="btn4"><img class="size-[23px]" src="./images/sec4_btn_img.png" alt="" />See All</button>
+                </div>
+                <div class="flex flex-wrap justify-between">
+                    <div class="sec4-card hs">
+                        <img class="w-full h-[413px]" src="./images/sec4_img1.png" alt="" />
+                        <div class="w-full px-[30px] py-5">
+                            <h4 class="font-semibold text-[32px] leading-[140%]">Distant Galaxy</h4>
+                            <p class="sec4-text"><img src="./images/sec4_img1.1.png" alt="" />MoonDancer</p>
+                            <div class="flex justify-between font-text">
+                                <div>
+                                    <p class="sec4-p">Price</p>
+                                    <span class="sec4-span span-animate">1.63 ETH</span>
+                                </div>
+                                <div>
+                                    <p class="sec4-p">Highest Bid</p>
+                                    <span class="sec4-span span-animate">0.33 ETH</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec4-card hs">
+                        <img class="w-full h-[413px]" src="./images/sec4_img2.png" alt="" />
+                        <div class="w-full px-[30px] py-5">
+                            <h4 class="font-semibold text-[32px] leading-[140%]">Life On Edena</h4>
+                            <p class="sec4-text"><img src="./images/sec4_img2.2.png" alt="" />NebulaKid</p>
+                            <div class="flex justify-between font-text">
+                                <div>
+                                    <p class="sec4-p">Price</p>
+                                    <span class="sec4-span span-animate">1.63 ETH</span>
+                                </div>
+                                <div>
+                                    <p class="sec4-p">Highest Bid</p>
+                                    <span class="sec4-span span-animate">0.33 ETH</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec4-card hs">
+                        <img class="w-full h-[413px]" src="./images/sec4_img3.png" alt="" />
+                        <div class="w-full px-[30px] py-5">
+                            <h4 class="font-semibold text-[32px] leading-[140%]">AstroFiction</h4>
+                            <p class="sec4-text"><img src="./images/sec4_img3.3.png" alt="" />Spaceone</p>
+                            <div class="flex justify-between font-text">
+                                <div>
+                                    <p class="sec4-p">Price</p>
+                                    <span class="sec4-span span-animate">1.63 ETH</span>
+                                </div>
+                                <div>
+                                    <p class="sec4-p">Highest Bid</p>
+                                    <span class="sec4-span span-animate">0.33 ETH</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 4 -->
+            <section class="w-full h-[95vh] bg-[url('/images/sec5_img1.png')] bg-contain bg-no-repeat">
+                <div
+                    class="bg-[linear-gradient(180deg,rgba(162,89,255,0)_0%,#a259ff_100%)] size-full opacity-0 hover:opacity-100 transition duration-1000 ease-in"
+                >
+                    <div class="container flex justify-between items-end pb-[100px] size-full">
+                        <div class="">
+                            <p
+                                class="w-[190px] h-[55px] rounded-[20px] font-normal text-[20px] leading-[140%] bg-[#3b3b3b] flex items-center justify-center gap-4"
+                            >
+                                <img src="./images/sec5_img2.png" alt="" />Shroomie
+                            </p>
+                            <h2 class="font-semibold text-[68px] leading-[110%] my-[30px]">Magic Mashrooms</h2>
+                            <button class="btn5">
+                                <img
+                                    class="size-[23px] animate-[eye_0.8s_infinite_1s_alternate_ease-in-out]"
+                                    src="./images/sec5_btn_img.png"
+                                    alt=""
+                                />See NFT
+                            </button>
+                        </div>
+                        <div class="w-[400px] h-[195px] p-[30px] bg-[#3b3b3b80] rounded-[20px] flex flex-col justify-center font-text">
+                            <p class="font-normal text-[16px] leading-[110%]">Auction ends in:</p>
+                            <div class="flex justify-between mt-[10px]">
+                                <div>
+                                    <span class="sec5-span">59</span>
+                                    <p class="font-normal text-[16px] leading-[110%]">Hours</p>
+                                </div>
+                                <span class="font-bold text-[42px] leading-[120%] inline-block animate-[light_0.7s_ease-in-out_infinite_alternate]"
+                                    >:</span
+                                >
+                                <div>
+                                    <span class="sec5-span">59</span>
+                                    <p class="font-normal text-[16px] leading-[110%]">Minutes</p>
+                                </div>
+                                <span class="font-bold text-[42px] leading-[120%] inline-block animate-[light_0.7s_ease-in-out_infinite_alternate]"
+                                    >:</span
+                                >
+                                <div>
+                                    <span class="sec5-span">59</span>
+                                    <p class="font-normal text-[16px] leading-[110%]">Seconds</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 5 -->
+            <section id="sec6" class="container h-screen flex flex-col justify-center gap-12 pt-24">
+                <div>
+                    <h2 class="title">How it works</h2>
+                    <p class="text">Find out how to get started</p>
+                </div>
+                <div class="flex justify-between">
+                    <div
+                        class="group w-[460px] h-[612px] bg-[#3b3b3b] rounded-[20px] flex flex-col justify-start items-center text-center px-[40px] pt-[10px] hs"
+                    >
+                        <img class="size-[380px] group-hover:animate-[spin_2s_ease]" src="./images/sec6_img1.png" alt="" />
+                        <div>
+                            <h3 class="font-semibold text-[28px] leading-[140%] mt-[20px] mb-[10px]">Setup Your wallet</h3>
+                            <p class="font-normal text-[22px] leading-[140%]">
+                                Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="group w-[460px] h-[612px] bg-[#3b3b3b] rounded-[20px] flex flex-col justify-start items-center text-center px-[40px] pt-[10px] hs"
+                    >
+                        <img class="size-[380px] group-hover:animate-[spin_2s_ease]" src="./images/sec6_img2.png" alt="" />
+                        <div>
+                            <h3 class="font-semibold text-[28px] leading-[140%] mt-[20px] mb-[10px]">Create Collection</h3>
+                            <p class="font-normal text-[22px] leading-[140%]">
+                                Upload your work and setup your collection. Add a description, social links and floor price.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="group w-[460px] h-[612px] bg-[#3b3b3b] rounded-[20px] flex flex-col justify-start items-center text-center px-[40px] pt-[10px] hs"
+                    >
+                        <img class="size-[380px] group-hover:animate-[spin_2s_ease]" src="./images/sec6_img3.png" alt="" />
+                        <div>
+                            <h3 class="font-semibold text-[28px] leading-[140%] mt-[20px] mb-[10px]">Start Earning</h3>
+                            <p class="font-normal text-[22px] leading-[140%]">
+                                Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 6 -->
+            <section class="container h-screen flex justify-center items-center pt-24">
+                <div class="w-full h-[616px] bg-[#3b3b3b] rounded-[20px] flex items-center gap-[80px] p-[60px]">
+                    <img class="w-[658px] h-[480px]" src="./images/sec7_img.png" alt="" />
+                    <form>
+                        <h2 class="title w-[510px]">Join our weekly digest</h2>
+                        <p class="text w-[600px] mt-[20px] mb-[50px]">Get exclusive promotions & updates straight to your inbox.</p>
+                        <div class="w-[567px] h-[80px] flex justify-between rounded-[25px] bg-[#fff]">
+                            <input
+                                class="w-[286px] h-[80px] bg-[#fff] outline-none font-normal text-[22px] text-[#2b2b2b] leading-[140%] rounded-[25px] px-[20px] py-16px"
+                                type="email"
+                                placeholder="Enter your email here"
+                            />
+                            <button class="btn6"><img class="size-[26px]" src="./images/sec7_btn_img.png" alt="" />Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="h-[500px] bg-[#3b3b3b] flex items-center text-[#fff]">
+            <div class="container">
+                <div class="flex justify-around gap-10">
+                    <ul class="w-[350px]">
+                        <li class="list1 flex items-center gap-3"><img class="size-[50px]" src="./images/foot5.png" alt="" />NFT Marketplace</li>
+                        <li class="list2">NFT marketplace UI created with Anima for Figma.</li>
+                        <li class="list2">Join our community</li>
+                        <li>
+                            <div class="flex gap-2.5">
+                                <img class="size-[45px]" src="./images/foot2.png" alt="" />
+                                <img class="size-[45px]" src="./images/foot3.png" alt="" />
+                                <img class="size-[45px]" src="./images/foot1.png" alt="" />
+                                <img class="size-[45px]" src="./images/foot4.png" alt="" />
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="w-[200px]">
+                        <li class="list1">Explore</li>
+                        <li class="list2">Marketplace</li>
+                        <li class="list2">Rankings</li>
+                        <li class="list2">Connect a wallet</li>
+                    </ul>
+                    <ul class="w-[570px]">
+                        <li class="list1">Join our weekly digest</li>
+                        <li class="list2 w-[470px]">Get exclusive promotions & updates straight to your inbox.</li>
+                        <li>
+                            <form>
+                                <div class="w-[567px] h-[80px] flex justify-between rounded-[25px] bg-[#fff]">
+                                    <input
+                                        class="w-[286px] h-[80px] bg-[#fff] outline-none font-normal text-[22px] text-[#2b2b2b] leading-[140%] rounded-[25px] px-[20px] py-16px"
+                                        type="email"
+                                        placeholder="Enter your email here"
+                                    />
+                                    <button class="btn7">Subscribe</button>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="mt-[50px] mb-[20px]" />
+                <p class="font-normal text-[12px] leading[110%] text-[#ccc]">&copy; NFT Market. Use this template freely.</p>
+            </div>
+        </footer>
+    </body>
+</html>
